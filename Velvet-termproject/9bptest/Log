@@ -1,0 +1,22 @@
+Thu Jun  9 15:00:12 2016
+ ./velveth 9bptest 9 -fastq -short ColE9-J.fastq
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Thu Jun  9 15:00:22 2016
+ ./velvetg 9bptest -exp_cov auto -cov_cutoff auto
+Version 1.2.10
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Compilation settings:
+CATEGORIES = 2
+MAXKMERLENGTH = 31
+
+Median coverage depth = 1.000000
+Final graph has 17955 nodes and n50 of 2, max 15, total 32550, using 113/2500 reads
