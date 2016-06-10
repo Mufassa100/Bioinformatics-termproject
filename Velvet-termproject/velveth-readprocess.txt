@@ -1,0 +1,17 @@
+
+./velveth 3bptest 3 -fastq -short ColE9-J.fastq 
+
+[0.000000] Reading FastQ file ColE9-J.fastq;
+[0.024252] 2500 sequences found
+[0.024361] Done
+[0.028283] Reading read set file 3bptest/Sequences;
+[0.038621] 2500 sequences found
+[0.052346] Done
+[0.052370] 2500 sequences in total.
+[0.053376] Writing into roadmap file 3bptest/Roadmaps...
+[0.062022] Inputting sequences...
+[0.062040] Inputting sequence 0 / 2500
+[0.485134]  === Sequences loaded in 0.423115 s
+[0.486799] Done inputting sequences
+[0.486816] Destroying splay table
+[0.486970] Splay table destroyed

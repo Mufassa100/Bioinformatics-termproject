@@ -1,0 +1,125 @@
+//building a graph with k-mer legnth 9 
+
+[0.000000] Reading roadmap file 9bptest/Roadmaps
+[0.075250] 2500 roadmaps read
+[0.075394] Creating insertion markers
+[0.078859] Ordering insertion markers
+[0.096498] Counting preNodes
+[0.100112] 20986 preNodes counted, creating them now
+[0.200861] Adjusting marker info...
+[0.203672] Connecting preNodes
+[0.230651] Cleaning up memory
+[0.230687] Done creating preGraph
+[0.230693] Concatenation...
+[0.235113] Renumbering preNodes
+[0.235130] Initial preNode count 20986
+[0.237602] Destroyed 731 preNodes
+[0.237634] Concatenation over!
+[0.237639] Clipping short tips off preGraph
+[0.238757] Concatenation...
+[0.242183] Renumbering preNodes
+[0.242206] Initial preNode count 20255
+[0.244422] Destroyed 49 preNodes
+[0.244428] Concatenation over!
+[0.244432] 34 tips cut off
+[0.244435] 20206 nodes left
+[0.244588] Writing into pregraph file 9bptest/PreGraph...
+[0.343117] Reading read set file 9bptest/Sequences;
+[0.346886] 2500 sequences found
+[0.357631] Done
+[0.366678] Reading pre-graph file 9bptest/PreGraph
+[0.366722] Graph has 20206 nodes and 2500 sequences
+[0.439810] Scanning pre-graph file 9bptest/PreGraph for k-mers
+[0.490270] 39429 kmers found
+[0.546084] Sorting kmer occurence table ... 
+[0.562300] Sorting done.
+[0.562316] Computing acceleration table... 
+[0.565551] Computing offsets... 
+[0.567032] Ghost Threading through reads 0 / 2500
+[0.629429]  === Ghost-Threaded in 0.062398 s
+[0.629462] Threading through reads 0 / 2500
+[0.753791]  === Threaded in 0.124329 s
+[0.760329] Correcting graph with cutoff 0.200000
+[0.763238] Determining eligible starting points
+[0.794971] Done listing starting nodes
+[0.795002] Initializing todo lists
+[0.805181] Done with initilization
+[0.805230] Activating arc lookup table
+[0.814342] Done activating arc lookup table
+[1.053310] 10000 / 20206 nodes visited
+[1.723202] 20000 / 20206 nodes visited
+[2.775343] 30000 / 20206 nodes visited
+[4.037435] 40000 / 20206 nodes visited
+[4.055131] Concatenation...
+[4.057758] Renumbering nodes
+[4.057799] Initial node count 20206
+[4.059105] Removed 2243 null nodes
+[4.059126] Concatenation over!
+[4.059132] Clipping short tips off graph, drastic
+[4.060734] Concatenation...
+[4.063078] Renumbering nodes
+[4.063109] Initial node count 17963
+[4.063961] Removed 8 null nodes
+[4.063976] Concatenation over!
+[4.063981] 17955 nodes left
+[4.064705] Writing into graph file 9bptest/Graph2...
+[4.413896] Measuring median coverage depth...
+[4.417804] Median coverage depth = 1.000000
+[4.418038] Removing contigs with coverage < 0.500000...
+[4.418940] Concatenation...
+[4.421202] Renumbering nodes
+[4.421232] Initial node count 17955
+[4.421314] Removed 0 null nodes
+[4.421319] Concatenation over!
+[4.422321] Concatenation...
+[4.424746] Renumbering nodes
+[4.424773] Initial node count 17955
+[4.424854] Removed 0 null nodes
+[4.424859] Concatenation over!
+[4.424879] Clipping short tips off graph, drastic
+[4.425631] Concatenation...
+[4.427914] Renumbering nodes
+[4.427945] Initial node count 17955
+[4.428027] Removed 0 null nodes
+[4.428032] Concatenation over!
+[4.428036] 17955 nodes left
+[4.428044] Read coherency...
+[4.428736] Identifying unique nodes
+[4.429666] Done, 0 unique nodes counted
+[4.429685] Trimming read tips
+[4.430542] Renumbering nodes
+[4.430557] Initial node count 17955
+[4.430633] Removed 0 null nodes
+[4.430641] Confronted to 0 multiple hits and 0 null over 0
+[4.430646] Read coherency over!
+[4.430792] Starting pebble resolution...
+[4.431459] Computing read to node mapping array sizes
+[4.436650] Computing read to node mappings
+[4.450536] Estimating library insert lengths...
+[4.450610] Done
+[4.450796] Computing direct node to node mappings
+[4.451030] Scaffolding node -10000
+[4.451435] Scaffolding node 0
+[4.451657] Scaffolding node 10000
+[4.452000]  === Nodes Scaffolded in 0.001197 s
+[4.453875] Preparing to correct graph with cutoff 0.200000
+[4.455180] Cleaning memory
+[4.455222] Deactivating local correction settings
+[4.455860] Pebble done.
+[4.455881] Concatenation...
+[4.458826] Renumbering nodes
+[4.458861] Initial node count 17955
+[4.458949] Removed 0 null nodes
+[4.459747] Concatenation over!
+[4.459767] Removing reference contigs with coverage < 0.500000...
+[4.461097] Concatenation...
+[4.463476] Renumbering nodes
+[4.463505] Initial node count 17955
+[4.463587] Removed 0 null nodes
+[4.464057] Concatenation over!
+[4.464265] Writing contigs into 9bptest/contigs.fa...
+[4.466314] Writing into stats file 9bptest/stats.txt...
+[4.575547] Writing into graph file 9bptest/LastGraph...
+[4.926022] Estimated Coverage = 1.000000
+[4.926047] Estimated Coverage cutoff = 0.500000
+Final graph has 17955 nodes and n50 of 2, max 15, total 32550, using 113/2500 reads

@@ -1,0 +1,120 @@
+
+./velvetg 3bptest -exp_cov auto -cov_cutoff auto
+
+[0.000000] Reading roadmap file 3bptest/Roadmaps
+[0.411110] 2500 roadmaps read
+[0.411217] Creating insertion markers
+[0.430506] Ordering insertion markers
+[0.566143] Counting preNodes
+[0.589535] 32 preNodes counted, creating them now
+[0.745555] Adjusting marker info...
+[0.782134] Connecting preNodes
+[0.833177] Cleaning up memory
+[0.834115] Done creating preGraph
+[0.834853] Concatenation...
+[0.834870] Renumbering preNodes
+[0.834874] Initial preNode count 32
+[0.834889] Destroyed 0 preNodes
+[0.834894] Concatenation over!
+[0.834897] Clipping short tips off preGraph
+[0.834902] Concatenation...
+[0.834908] Renumbering preNodes
+[0.834912] Initial preNode count 32
+[0.834916] Destroyed 0 preNodes
+[0.834919] Concatenation over!
+[0.834923] 0 tips cut off
+[0.834926] 32 nodes left
+[0.835124] Writing into pregraph file 3bptest/PreGraph...
+[0.835361] Reading read set file 3bptest/Sequences;
+[0.838415] 2500 sequences found
+[0.853590] Done
+[0.863400] Reading pre-graph file 3bptest/PreGraph
+[0.863448] Graph has 32 nodes and 2500 sequences
+[0.863596] Scanning pre-graph file 3bptest/PreGraph for k-mers
+[0.864019] 32 kmers found
+[0.864282] Sorting kmer occurence table ... 
+[0.864300] Sorting done.
+[0.864305] Computing acceleration table... 
+[0.864309] Computing offsets... 
+[0.864321] Ghost Threading through reads 0 / 2500
+[0.897058]  === Ghost-Threaded in 0.032737 s
+[0.897091] Threading through reads 0 / 2500
+[0.961432]  === Threaded in 0.064341 s
+[0.965818] Correcting graph with cutoff 0.200000
+[0.966289] Determining eligible starting points
+[0.966397] Done listing starting nodes
+[0.966429] Initializing todo lists
+[0.966500] Done with initilization
+[0.966510] Activating arc lookup table
+[0.966565] Done activating arc lookup table
+[0.967712] Concatenation...
+[0.967730] Renumbering nodes
+[0.967736] Initial node count 32
+[0.967740] Removed 0 null nodes
+[0.967744] Concatenation over!
+[0.967748] Clipping short tips off graph, drastic
+[0.967753] Concatenation...
+[0.967757] Renumbering nodes
+[0.967761] Initial node count 32
+[0.967764] Removed 0 null nodes
+[0.967768] Concatenation over!
+[0.967771] 32 nodes left
+[0.967937] Writing into graph file 3bptest/Graph2...
+[1.081283] Measuring median coverage depth...
+[1.081312] Median coverage depth = 11263.000000
+[1.081382] Removing contigs with coverage < 5631.500000...
+[1.081484] Concatenation...
+[1.081494] Renumbering nodes
+[1.081499] Initial node count 32
+[1.081504] Removed 1 null nodes
+[1.081508] Concatenation over!
+[1.081513] Concatenation...
+[1.081517] Renumbering nodes
+[1.081521] Initial node count 31
+[1.081525] Removed 0 null nodes
+[1.081528] Concatenation over!
+[1.081540] Clipping short tips off graph, drastic
+[1.081545] Concatenation...
+[1.081549] Renumbering nodes
+[1.081553] Initial node count 31
+[1.081557] Removed 0 null nodes
+[1.081561] Concatenation over!
+[1.081564] 31 nodes left
+[1.081569] Read coherency...
+[1.081573] Identifying unique nodes
+[1.081578] Done, 0 unique nodes counted
+[1.081581] Trimming read tips
+[1.081586] Renumbering nodes
+[1.081589] Initial node count 31
+[1.081593] Removed 0 null nodes
+[1.081597] Confronted to 0 multiple hits and 0 null over 0
+[1.081602] Read coherency over!
+[1.081652] Starting pebble resolution...
+[1.081765] Computing read to node mapping array sizes
+[1.082869] Computing read to node mappings
+[1.087543] Estimating library insert lengths...
+[1.087610] Done
+[1.087628] Computing direct node to node mappings
+[1.087639] Scaffolding node 0
+[1.087645]  === Nodes Scaffolded in 0.000011 s
+[1.087660] Preparing to correct graph with cutoff 0.200000
+[1.087719] Cleaning memory
+[1.087725] Deactivating local correction settings
+[1.087825] Pebble done.
+[1.087836] Concatenation...
+[1.087841] Renumbering nodes
+[1.087845] Initial node count 31
+[1.087850] Removed 0 null nodes
+[1.087854] Concatenation over!
+[1.087858] Removing reference contigs with coverage < 5631.500000...
+[1.087867] Concatenation...
+[1.087871] Renumbering nodes
+[1.087874] Initial node count 31
+[1.087878] Removed 0 null nodes
+[1.087882] Concatenation over!
+[1.088057] Writing contigs into 3bptest/contigs.fa...
+[1.088228] Writing into stats file 3bptest/stats.txt...
+[1.089381] Writing into graph file 3bptest/LastGraph...
+[1.201250] Estimated Coverage = 11263.000000
+[1.201274] Estimated Coverage cutoff = 5631.500000
+Final graph has 31 nodes and n50 of 1, max 1, total 31, using 0/2500 read
